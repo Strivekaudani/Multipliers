@@ -2,10 +2,5 @@
 
 # list of design files to be compiled
 
-design_files=("../../source/multiplier_simple_4-bit.v")
-
-
-testbench_files=("../testbench/multiplier_tb.v")
-
-ver_files=("${design_files[@]}" "${testbench_files[@]}")
-
+ver_files=("../../source/multiplier_booth_4-bit.v"
+	  "../testbench/multiplier_tb.v")	
