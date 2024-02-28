@@ -5,19 +5,19 @@ set acs_work_dir "."
 
 #############################
 # Update design name to match top-level module name
-set DESIGN "mult_booth"
+set DESIGN "mult_pipeline"
 
 ##########################
 # Analyze design
 # for designs with multiple verilog files, add addition "analyze" lines for each verilog file
-analyze -format verilog { ../../source/multiplier_booth_4-bit.v }
+analyze -format verilog { ../../source/multiplier_pipelined_4-bit.v }
 
 # elaborate design
 elaborate  ${DESIGN} -architecture verilog -library DEFAULT
 uniquify
 
 # constraints
-source ../constraints/constraints_${DESIGN}.tcl
+source ../constraints/constraints_multipliers.tcl
 
 # check design for issues
 check_design
