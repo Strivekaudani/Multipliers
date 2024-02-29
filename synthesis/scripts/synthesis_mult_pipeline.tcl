@@ -5,7 +5,7 @@ set acs_work_dir "."
 
 #############################
 # Update design name to match top-level module name
-set DESIGN "mult_simple"
+set DESIGN "mult_pipeline"
 
 ##########################
 # Analyze design
