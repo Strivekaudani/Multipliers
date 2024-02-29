@@ -17,7 +17,7 @@ elaborate  ${DESIGN} -architecture verilog -library DEFAULT
 uniquify
 
 # constraints
-source ../constraints/constraints_${DESIGN}.tcl
+source ../constraints/constraints_multipliers.tcl
 
 # check design for issues
 check_design
