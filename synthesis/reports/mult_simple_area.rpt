@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : mult_simple
+Version: O-2018.06-SP1
+Date   : Thu Feb 29 15:12:20 2024
+****************************************
+
+Library(s) Used:
+
+    IBM_CMOS8HP_SS125 (File: /apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/synopsys/ss_125/IBM_CMOS8HP_SS125.db)
+
+Number of ports:                           35
+Number of nets:                           148
+Number of cells:                          115
+Number of combinational cells:            105
+Number of sequential cells:                 9
+Number of macros/black boxes:               0
+Number of buf/inv:                         54
+Number of references:                       6
+
+Combinational area:               1530.240016
+Buf/Inv area:                      639.360008
+Noncombinational area:             322.559998
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  1852.800014
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+mult_simple                       1852.8000    100.0   478.0800   322.5600  0.0000  mult_simple
+mult_18                           1052.1600     56.8  1052.1600     0.0000  0.0000  mult_simple_DW02_mult_0
+--------------------------------  ---------  -------  ---------  ---------  ------  -----------------------
+Total                                                 1530.2400   322.5600  0.0000
+
+1

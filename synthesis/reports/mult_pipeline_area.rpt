@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : mult_pipeline
+Version: O-2018.06-SP1
+Date   : Thu Feb 29 15:16:21 2024
+****************************************
+
+Library(s) Used:
+
+    IBM_CMOS8HP_SS125 (File: /apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/synopsys/ss_125/IBM_CMOS8HP_SS125.db)
+
+Number of ports:                           46
+Number of nets:                           241
+Number of cells:                          194
+Number of combinational cells:            155
+Number of sequential cells:                38
+Number of macros/black boxes:               0
+Number of buf/inv:                         93
+Number of references:                      30
+
+Combinational area:               2252.160003
+Buf/Inv area:                     1127.040006
+Noncombinational area:            1451.519989
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  3703.679992
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+mult_pipeline                     3703.6800    100.0  1964.1600  1451.5200  0.0000  mult_pipeline
+add_113_aco                        288.0000      7.8   288.0000     0.0000  0.0000  mult_pipeline_DW01_add_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ------------------------
+Total                                                 2252.1600  1451.5200  0.0000
+
+1
